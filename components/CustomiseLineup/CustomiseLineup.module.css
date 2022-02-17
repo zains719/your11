@@ -1,0 +1,140 @@
+.createPanel {
+    width: 200px;
+    padding: 20px 20px 0 20px;
+}
+
+.dropdowns {
+    display: flex;
+    width: 400px;
+}
+
+.select {
+    width: 175px;
+    margin-right: 20px;
+}
+
+.teamInputs {
+    margin-left: 5px;
+}
+
+.teamInputs h3 {
+    font-weight: 500;
+    margin-bottom: -20px;
+}
+
+.lineupName {
+    border: none;
+    padding: 10px;
+    border-radius: 7px;
+    background-color: transparent;    
+    display: flex;
+    box-shadow: 3px 4px 17px rgba(0, 0, 0, 0.205);
+    width: fit-content;
+    height: fit-content;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    transition: 0.2s;
+}
+
+.lineupName:hover {
+    background-color: #5F01FF;
+    box-shadow: none;
+    transition: 0.2s;
+    color: white;
+}
+
+.lineupName:focus {
+    outline: none;
+}
+
+.lineupName:hover::placeholder {
+    color: white;
+}
+
+.lineupName input:-webkit-autofill {
+    background-color: transparent;
+}
+
+.button {
+    background-color: #5F01FF;
+    color: white;
+    border-radius: 7px;
+    border: none;
+    padding: 7px 30px 7px 30px;
+    margin-top: 15px;
+    transition: 0.5s;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.button:hover {
+    transform: scale(1.09);
+}
+
+.position {
+    margin-top: 30px;
+}
+
+.inputs {
+    display: flex;
+    box-shadow: 3px 4px 17px rgba(0, 0, 0, 0.205);
+    border-radius: 7px;
+    width: fit-content;
+    height: fit-content;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 10px;
+    transition: 0.2s;
+}
+
+.inputs:hover {
+    background-color: #5F01FF;
+    box-shadow: none;
+    transition: 0.2s;
+    color: white;
+}
+
+.inputs:hover input {
+    color: white;
+}
+
+.inputs:hover input::placeholder {
+    color: white;
+}
+
+.inputs input {
+    border: none;
+    padding: 10px;
+    border-radius: 7px;
+    background-color: transparent;
+}
+
+.inputs input:focus {
+    outline: none;
+}
+
+.inputs input:-webkit-autofill {
+    background-color: transparent;
+}
+
+.inputs .number {
+    width: 85px;
+}
+
+.inputs input::-webkit-outer-spin-button,
+.inputs input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+.inputs input[type=number] {
+  -moz-appearance: textfield;
+}
+
+.arrow {
+    margin-left: 10px;
+    fill: white;
+}

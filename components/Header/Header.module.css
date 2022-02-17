@@ -1,0 +1,9 @@
+.container {
+    background-color: #5F01FF;
+    width: 100%;
+    padding: 10px 4% 10px 4%;
+}
+
+.container img {
+    margin-top: 10px;
+}

@@ -1,0 +1,23 @@
+.container {
+    display: grid;
+    place-items: center;
+    background-color: #5F01FF;
+    width: 100%;
+    padding: 2%;
+    margin-top: auto;
+}
+
+.logo {
+    margin-bottom: 20px;
+    padding: 0 20px 10px 20px;
+    border-bottom: 1px solid white;
+}
+
+.icons {
+    display: flex;
+}
+
+.icons img {
+    margin-left: 10px;
+    margin-right: 10px;
+}

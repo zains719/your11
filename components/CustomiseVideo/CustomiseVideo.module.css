@@ -1,0 +1,16 @@
+.container {
+    display: flex;
+    padding: 20px 20px 0 20px;
+}
+
+.customisePanel {
+    margin-right: 50px;
+}
+
+.customiseSection {
+    margin-bottom: 20px;
+}
+
+.customiseSection h4 {
+    margin-bottom: 5px;
+}

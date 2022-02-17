@@ -1,0 +1,32 @@
+.container {
+    background-color: #4300b6;
+    border-top-left-radius: 18px;
+    border-top-right-radius: 18px;
+    padding-left: 5%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    display: flex;
+}
+
+.selectedIcon {
+    margin-right: 50px;
+    transition: 0.5s;
+    fill: #d4bbff;
+}
+
+.container span {
+    height: 40px;
+    width: 2px;
+    background-color: #843efd;
+    margin-right: 50px;
+}
+
+.icon {
+    margin-right: 50px;
+    transition: 0.5s;
+    fill: #843efd;
+}
+
+.icon:hover ,.selectedIcon:hover {
+    cursor: pointer;
+}

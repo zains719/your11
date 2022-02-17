@@ -1,0 +1,22 @@
+.container {
+    height: 100%;
+    padding: 3%;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+}
+
+.createBox {
+    background-color: white;
+    border-radius: 20px;
+    width: 1000px;
+    padding-bottom: 1.5%;
+    height: fit-content;
+}
+
+.createBox p {
+    width: 350px;
+    color: #5F01FF;
+    font-size: 12px;
+    margin-left: 25px;
+}

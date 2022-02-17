@@ -6,15 +6,34 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "remotion:dev": "remotion preview remotion/src/index.js",
+    "remotion:build": "remotion render remotion/src/index.js HelloWorld out.mp4 --concurrency=8"
   },
   "dependencies": {
+    "@remotion/bundler": "2.2.0",
+    "@remotion/cli": "2.2.0",
+    "@remotion/gif": "^2.2.0",
+    "@remotion/player": "2.2.0",
+    "@remotion/renderer": "2.2.0",
+    "lodash": "^4.17.21",
+    "multiselect-react-dropdown": "^2.0.5",
     "next": "11.1.0",
     "react": "17.0.2",
-    "react-dom": "17.0.2"
+    "react-color": "^2.19.3",
+    "react-dom": "17.0.2",
+    "react-icons": "^4.2.0",
+    "react-select": "^4.3.1",
+    "remotion": "^2.3.0",
+    "sass": "^1.38.0"
   },
   "devDependencies": {
+    "@types/classnames": "^2.3.1",
+    "@types/node": "^13.13.52",
+    "@types/react": "^16.14.11",
+    "@types/react-color": "^3.0.5",
     "eslint": "7.32.0",
-    "eslint-config-next": "11.1.0"
+    "eslint-config-next": "11.1.0",
+    "typescript": "^3.9.10"
   }
 }
